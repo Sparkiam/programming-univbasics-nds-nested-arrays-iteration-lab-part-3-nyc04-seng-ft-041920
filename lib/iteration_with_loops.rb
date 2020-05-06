@@ -13,7 +13,9 @@
 def join_nested_strings(mixed_data_1)
 def join_nested_strings(mixed_data_1)
   array = mixed_data_1.flatten
-  array.delete_if {|x| x.is_a? Integer}     return array end 
+  array.delete_if {|x| x.is_a? Integer}
+  return array
+  end
 #   if mixed_data_1 === Class
 # array.each do |x| 
 #   if x === String(" ")
