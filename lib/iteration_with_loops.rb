@@ -13,7 +13,7 @@
 def join_nested_strings(mixed_data)
   array = mixed_data.flatten
   array.delete_if {|x| x.is_a? Integer}
-  return array
+  return array.join(" ")
 end  
 #   if mixed_data_1 === Class
 # array.each do |x| 
