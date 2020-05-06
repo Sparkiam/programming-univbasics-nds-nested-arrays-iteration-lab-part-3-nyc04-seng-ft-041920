@@ -28,4 +28,4 @@ end
 # end 
 # end 
 
-return Array.join(" ")
+return array.join(" ")
