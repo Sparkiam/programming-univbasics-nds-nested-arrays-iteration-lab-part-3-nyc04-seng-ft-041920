@@ -29,8 +29,4 @@ end
 # end 
 # end 
 
-mixed_data_1.join(" ")
-
-
-
-end 
+return mixed_data_1.join(" ")
