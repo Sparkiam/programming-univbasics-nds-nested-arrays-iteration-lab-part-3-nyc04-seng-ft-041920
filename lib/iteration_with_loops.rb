@@ -11,7 +11,7 @@
 # ]
 
 def join_nested_strings(mixed_data)
-  array = mixed_data_1.flatten
+  array = mixed_data.flatten
   array.delete_if {|x| x.is_a? Integer}
   return array
 end  
@@ -28,4 +28,4 @@ end
 # end 
 # end 
 
-return array.join(" ")
+return .join(" ")
