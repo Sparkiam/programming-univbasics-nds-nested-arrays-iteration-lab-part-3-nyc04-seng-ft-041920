@@ -10,7 +10,7 @@
 #   ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
 # ]
 
-def join_nested_strings(mixed_data_1)
+def join_nested_strings(mixed_data)
   array = mixed_data_1.flatten
   array.delete_if {|x| x.is_a? Integer}
   return array
